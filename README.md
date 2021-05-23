@@ -3,8 +3,11 @@
 
 ### Authors
 -[noveraahmed](https://github.com/noveraahmed)
+
 -[Stephanie Lu](https://github.com/stephanieyflu)
+
 -[SwaggyXiao](https://github.com/SwaggyXiao)
+
 -[hpnrep6](https://github.com/hpnrep6)
 
 ### Story
@@ -14,4 +17,5 @@ This is why we created ScheDuo, a user-friendly, university exclusive website th
 
 ### Links
 [Live version](https://tranquil-badlands-29747.herokuapp.com/index.html)
+
 [Devpost Project](placeholder.com)
