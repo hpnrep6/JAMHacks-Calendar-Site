@@ -216,3 +216,9 @@ function draw() {
         add(cur.day, cur.start, cur.end, cur.name)
     }
 }
+
+
+document.getElementById('export').addEventListener('click', (e) => {
+    let img = c.toDataURL('image/png')
+    document.write('<img src="' + img + '"/>')
+})
