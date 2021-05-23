@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ScheDuo - Timetable</title>
+<meta name="description" content="Vanilla javascript plugin for building nice responsive timetables">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Timetable</title>
+<link rel="stylesheet" href="timetable.css">
+</head>
+
+  <body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="timetable.html" id="navbar__logo">Timetable</a>
+            <img src="logo.png" height="60px" draggable="false">    
+            <ul class="navbar__menu">
+                <li class="nevbar__item">
+                    <a href="index.html" class="navbar__links">Home</a>
+                </li>
+                <li class="nevbar__item">
+                    <a href="sign-in.html" class="navbar__links" id="login">Sign In</a>
+                </li>
+                <li class="nevbar__item" id=>
+                    <a href="register.html" class="navbar__links" id="register">Register</a>
+                </li>
+                <li class="nevbar__item">
+                    <a href="index.html" class="navbar__links" id="logout">Sign out</a>
+                </li>
+                <li class="nevbar__item">
+                    <a href="#" class="navbar__links" id="uname"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="cont">
+        <div class="table">
+            <canvas class="canvas" id="table" width="1000" height="700px"></canvas>
+        </div>
+        <div class="in">
+            <form id="form">
+                <br>
+                <label>Course/Event Name</label>
+                <br>
+                <input type="text" name="name" id="name" placeholder="Course Name" required />
+                <br>
+                <label>Start Time</label>
+                <br>
+                <select id="start" name="start_time">
+                    <option value="8">8:00</option>
+                    <option value="9">9:00</option>
+                    <option value="10">10:00</option>
+                    <option value="11">11:00</option>
+                    <option value="12">12:00</option>
+                    <option value="13">13:00</option>
+                    <option value="14">14:00</option>
+                    <option value="15">15:00</option>
+                    <option value="16">16:00</option>
+                    <option value="17">17:00</option>
+                    <option value="18">18:00</option>
+                    <option value="19">19:00</option>
+                    <option value="20">20:00</option>
+                    <option value="21">21:00</option>
+                </select>
+                <br>
+                <label>End Time</label>
+                <br>
+                <select id="end" name="end_time">
+                    <option value="9">9:00</option>
+                    <option value="10">10:00</option>
+                    <option value="11">11:00</option>
+                    <option value="12">12:00</option>
+                    <option value="13">13:00</option>
+                    <option value="14">14:00</option>
+                    <option value="15">15:00</option>
+                    <option value="16">16:00</option>
+                    <option value="17">17:00</option>
+                    <option value="18">18:00</option>
+                    <option value="19">19:00</option>
+                    <option value="20">20:00</option>
+                    <option value="21">21:00</option>
+                    <option value="22">22:00</option>
+                </select>
+                <br>
+                <label>Day of Week</label>
+                <br>
+                <select id="day" name="day">
+                    <option value="1">Monday</option>
+                    <option value="2">Tuesday</option>
+                    <option value="3">Wednesday</option>
+                    <option value="4">Thursday</option>
+                    <option value="5">Friday</option>
+                </select>
+                <button type="submit" href="/">Add</button>
+            </form>
+        </div>
+    </div>
+    <script src="timetable.js"></script>
+</body>
+</html>

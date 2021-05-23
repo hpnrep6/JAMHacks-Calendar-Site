@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>ScheDuo - Register</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="home.css">
+<link href="" rel="icon">
+<!-- ^our logo -->
+
+<style>
+</style>
+<script src=""></script>
+
+<body>
+    <!-- Navbar section -->
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="timetable.html" id="navbar__logo">Timetable</a>
+            <img src="logo.png" height="60px" draggable="false">    
+            <ul class="navbar__menu">
+                <li class="nevbar__item">
+                    <a href="index.html" class="navbar__links">Home</a>
+                </li>
+                <li class="nevbar__item">
+                    <a href="sign-in.html" class="navbar__links">Sign In</a>
+                </li>
+                <li class="nevbar__item">
+                    <a href="register.html" class="navbar__links">Register</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="holder">
+        <h1 class="sign-in" id="notif"> Register!</h1>
+            <form action="/" class="fill-form" id="form">
+                <hr>
+                <!-- <label id="icon" for="name"><i class="fas fa-user"></i></label> -->
+                <input type="text" name="username" id="name" placeholder="Name" required />
+                <!-- <label id="icon" for="name"><i class="fas fa-unlock-alt"></i></label> -->
+                <input type="password" name="password" id="name" placeholder="Password" required />
+                <hr>
+                <button type="submit" href="/">Register</button>
+        </form>
+            
+    </div>
+    <script src="register.js"></script>
+</body>
+
+</html>
