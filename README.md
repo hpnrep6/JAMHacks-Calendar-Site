@@ -1,5 +1,5 @@
 # ScheDuo
-#### A student-friendly timetable builder
+A student-friendly timetable builder
 
 ## Authors
 - [noveraahmed](https://github.com/noveraahmed)
