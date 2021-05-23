@@ -217,8 +217,13 @@ function draw() {
     }
 }
 
-
 document.getElementById('export').addEventListener('click', (e) => {
     let img = c.toDataURL('image/png')
     document.write('<img src="' + img + '"/>')
+})
+
+
+document.getElementById('dl').addEventListener('click', (e) => {
+    let img = c.toDataURL('image/png').replace('image/png', 'image/octet-stream')
+    window.location.href = img;
 })
