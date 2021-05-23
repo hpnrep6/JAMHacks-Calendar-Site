@@ -18,4 +18,4 @@ This is why we created ScheDuo, a user-friendly, university exclusive website th
 ## Links
 [Live version](https://tranquil-badlands-29747.herokuapp.com/index.html)
 
-[Devpost Project](placeholder.com)
+[Devpost Project](https://devpost.com/software/scheduo)
