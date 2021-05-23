@@ -2,13 +2,13 @@
 
 
 ### Authors
--[noveraahmed](https://github.com/noveraahmed)
+- [noveraahmed](https://github.com/noveraahmed)
 
--[Stephanie Lu](https://github.com/stephanieyflu)
+- [Stephanie Lu](https://github.com/stephanieyflu)
 
--[SwaggyXiao](https://github.com/SwaggyXiao)
+- [SwaggyXiao](https://github.com/SwaggyXiao)
 
--[hpnrep6](https://github.com/hpnrep6)
+- [hpnrep6](https://github.com/hpnrep6)
 
 ### Story
 After more than a year of online learning, our organization and social skills as students have become a little bit rusty. For first-year university students, the transition to virtual learning has been tough, especially their ability to explore key social aspects of university.
