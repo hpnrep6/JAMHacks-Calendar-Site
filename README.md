@@ -19,3 +19,6 @@ This is why we created ScheDuo, a user-friendly, university exclusive website th
 [Live version](https://tranquil-badlands-29747.herokuapp.com/index.html)
 
 [Devpost Project](https://devpost.com/software/scheduo)
+
+## Third party assets
+- Select HTML and CSS: [w3schools](https://www.w3schools.com/css/)
